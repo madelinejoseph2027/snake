@@ -1,0 +1,1 @@
+#Importsimport osfrom handstandClimber import HANDSTAND_CLIMBER handstander = HANDSTAND_CLIMBER()handstander.Evolve("DIRECT")handstander.Show_Best()
