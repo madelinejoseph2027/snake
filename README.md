@@ -2,7 +2,7 @@
 
 Snake is a set of pybullet/pyrosim-based functions that evolves a snake-like robot comprised of random rectangular pieces. Links are sensorized at random, while joints are motorized at random. A sensing-enabled link is distinguished from a non-sensing link by its color; the former is green, while the latter is blue. 
 
-In brief, the snake algorithm works by defining a head for the snake and adding anywhere from 1 to 8 pieces. The pieces' dimensions (length, width, and height) range from 0.1 to 3.0 units. 
+In brief, the snake algorithm works by defining a head for the snake and adding anywhere from 1 to 8 links to form a body. The pieces' dimensions (length, width, and height) range from 0.1 to 3.0 units. 
 
 
 ## Usage
