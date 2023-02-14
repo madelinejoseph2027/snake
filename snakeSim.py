@@ -1,4 +1,5 @@
 from snake import SNAKE
 
-snake = SNAKE(0)
-snake.Start_Simulation("GUI")
+for round in range(0,5):
+    snake = SNAKE(round)
+    snake.Start_Simulation("GUI")
