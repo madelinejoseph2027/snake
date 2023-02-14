@@ -20,6 +20,7 @@ class SIMULATION:
 
             else:
                 p.connect(p.GUI)
+                p.configureDebugVisualizer(p.COV_ENABLE_GUI,0)
                 
             self.world = WORLD()
             self.robot = ROBOT(solutionID)
@@ -39,7 +40,4 @@ class SIMULATION:
         #SENSOR.Save_Values()
         #MOTOR.Save_Values()
         p.disconnect()
-        
-    def Get_Fitness(self):
-        self.robot.Get_Fitness()
         

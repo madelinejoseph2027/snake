@@ -4,7 +4,7 @@ import numpy as np
 #Variables
 iterations = 1000
 
-maxForce = 100
+maxForce = 50
 
 sleep = 1/120
 
@@ -21,5 +21,5 @@ frontLegFrequency = 6
 frontLegPhaseOffset = 0
 
 
-numberOfGenerations = 100
+numberOfGenerations = 5
 populationSize = 1
