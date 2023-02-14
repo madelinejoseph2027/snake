@@ -18,7 +18,7 @@ python3 snakeSim.py
 
 ## Output
 
-The the simulation is run 5 times to produce 5 unique, random snakes. This value can be changed in ```snakeSim.py``` (in the for loop) if more iterations of simulations are desired. 
+The the simulation is run 5 times to produce 5 unique, random snakes. All of these will be displayed in the pybullet GUI. This value can be changed in ```snakeSim.py``` (in the for loop) if more iterations of simulations are desired. 
 
 
 ## Citations
